@@ -1,0 +1,442 @@
+body {
+    background-image: linear-gradient(to right bottom, #bdd4f5, #b2e1f3, #b9ebe8, #d0f1dd, #ecf4d8);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+  background-color: #7436E0;
+  height: 65px;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 40px 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#white-logo {
+  height: 35px;
+}
+
+.nav-left  {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.nav-right {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 50%;
+  gap: 15px;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+
+
+/* NEW IN V5.2 */
+.new-in {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   padding-top: 115px;
+}
+
+.new-in button {
+    background-color: #F7E27A;
+    color: black;
+    font-size: 16px;
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.new-in button:hover {
+    cursor: pointer;
+}
+
+.new-in a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+
+
+/* PURPLE LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 30px 0 0px 0;
+}
+
+.purple-logo {
+    height: 150px;
+}
+
+/* BUILD FAST*/
+.build-fast {
+    text-align: center;
+    padding: none;
+    margin: 0;
+
+}
+
+.build-fast h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.build-fast h3 {
+    color: #474645;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+
+
+/* NPM AND READ THE DOCS */
+.rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.clipboard-boxes {
+    display: flex;
+    gap: 60px;
+    padding: 5px 15px;
+    margin: 0;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.clipboard-pic {
+    height: 30px;
+    width: 30px;
+}
+
+#read-docs {
+    padding: 25px 35px;
+    background-color: #7436E0;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    align-items: center;
+}
+
+#read-docs:hover {
+    cursor: pointer;
+}
+
+
+/*  DOWNLOAD LINKS  */
+.download-links {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+   margin-top: 18px;
+   color: grey;
+   font-size: 18px;;
+}
+
+.download-links a {
+    color: grey;
+}
+
+
+/*  MONGODB SQUARE  */
+.mongodb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+    width: 430px;
+    margin: 25px auto;
+    border-radius: 8px;
+    padding: 0;
+    gap: 10px;
+}
+
+.mongo-image-div {
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+#mongo-image {
+    height: 120px;
+}
+
+.mongo-links {
+}
+
+.mongo-links a {
+   text-decoration: none;
+   color: 474645;
+}
+
+
+
+/*  HTML BRACKETS  */
+.html-brackets {
+    height: 50px;
+    width: 50px;
+    padding: 15px 10px;
+    font-size: 30px;
+    background-color: #7436E0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+
+/*  GET STARTED ANY WAY YOU WANT  */
+.get-started {
+    display: block;
+    text-align: center;
+    margin: 0 auto 80px;
+}
+
+.get-started h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px auto 20px;
+}
+
+.get-started h4 {
+    font-size: 20px;
+    margin: 5 auto;
+    color: #474645;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin: 10px auto 20px;
+}
+
+.get-started a {
+    font-size: 20px;
+    color: #1E70F8;
+}
+
+
+/*  INSTALL AND INCLUDE  */
+ .install-and-include {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+
+ }
+
+ #install {
+    margin: 0 auto;
+    width: 50%;
+    padding: none;
+
+ }
+
+ #include {
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+ }
+
+ .hthree {
+    margin: 12px auto;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+
+}
+
+ .para {
+    margin: 0 0 30px 0;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+ }
+ 
+#box {
+    height: 35px;
+}
+
+ #globe {
+    height: 35px;
+ }
+
+ .install-and-include a {
+    color: #1E70F8;
+ }
+
+ .clip-box-left {
+    display: block;
+    padding: 5px 15px;
+    margin: 20px 15px 20px 0;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    align-items: center;
+    gap: 220px
+}
+
+.clip-box-right {
+    display: block;
+    padding: 5px 15px;
+    margin: 20px 15px 20px 0;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    gap: 220px
+}
+
+.clip-pic-left {
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+#first-clip {
+    margin-left: 10px;
+}
+
+.clip-pic-right {
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+.vertical-row {
+    height:440px;
+    width:1px;
+    background-color: grey;
+} 
+
+
+
+/*  READ OUR GETTING STARTED GUIDES  */
+.getting-started {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.getting-started h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.getting-started p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+
+
+
+.get-start-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+}
+
+.getting-started-images {
+    display: flex;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.below-pic-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 140px;
+    gap: 55px
+}
+
+.below-pic-links a {
+    color: 3B3B3D;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    height: 300px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #ecf4d8;
+    padding: 50px 25px;
+}
+
+.bootstrap p {
+   color: grey;
+   font-size: 14px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #3B3B3D;
+    text-decoration: none;
+}
+
+.bootstrap {
+    display: block;
+    width: 20%;
+}
+
+.links a {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.links a:hover {
+    color: #1E70F8;
+    text-decoration: underline;
+}
+
+#black-logo {
+    height: 30px;
+    margin-right: 10px;
+}
